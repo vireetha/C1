@@ -1,0 +1,16 @@
+*{ 
+    background-color: azure; 
+}
+#p15{ 
+    color: brown; background-color: blue;
+}
+.t1{ 
+color: bisque;
+background-color: brown;
+text-align: center;
+}
+.t2{
+color: blueviolet;
+background-color: plum;
+text-align: right;
+}
