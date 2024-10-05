@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(43, 43, 128);
+    color:rgb(189, 176, 176)
+}
+h1{
+    color:rgb(155, 155, 212)
+}
+ul >li{
+font-weight: bold;
+
+}
+h1+p { 
+    background-color: #8af8f8;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+p::first-letter{
+    font-size: 200%;
+    background-color: bisque;
+    text-decoration: rgb(192, 136, 64);
+}
+ul li::before{ 
+content:"🚀"
+}
+ul li:after{
+    content:"\2605"
+}
+ul li:nth-child(2){
+background-color: blueviolet;
+}
