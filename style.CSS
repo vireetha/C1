@@ -1,45 +1,50 @@
-*{
-    background-color: cadetblue;
+body{
+    background-color: rgb(90, 223, 178);
 }
 h1{
-    color: aquamarine;
-    text-decoration-line: underline;
-    font: 400;
+    color: rgb(21, 21, 180);
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px ;
     font-size: xx-large;
-    font-weight: 300;
-    font-family: sans-serif;
-    padding: 2px;
-    margin-left: 100px;
-    margin-right: 300px;
+    font-weight: 200;
+    font-style: italic;
+    text-decoration-color: rgb(36, 7, 63);
+}
+h1+p {
+    color: rgb(130, 40, 214);
     background-color: bisque;
+}
+ul>li {
+    font-weight: 200;
+    text-decoration: underline;
+    font-style: oblique;
+    text-decoration-line: underline;
+    text-shadow: 3px;
+    color: rgb(64, 64, 158);
+    background-color: rgba(190, 127, 127, 0.733);
+}
+a:hover{
+    color:red;
+}
+a:not(li){
+    border:2px dashed
+}
+li:nth-child(2){
+    background-color: paleturquoise;
+}
+a:nth-last-child(4){
+    background-color: blanchedalmond;
+
 
 }
-#p12{ 
-    background-color: beige;
-    color: blue;
-    text-decoration: underline;
-    font-size: x-large;
-    font-family: 'Segoe UI';
-    margin-left: 20px;
-    padding: 3px;
+a::before{
+    content:"🐟"
+}
+a::after{
+    content:"⭐"
+}
+li::after{
+    content:"🔥"
+}
 
-}
-#p13{
-    background-color:pink;
-    color: black;
-    text-decoration: underline;
-    font-size: medium;
-    font-family: Impact;
-    margin-left: 30px;
-    padding: 3px;
-}
-#work{
-    float: left;
-}
-#hello{
-    float: right;
-}
-p{ 
-    text-align: center;
-}
 
