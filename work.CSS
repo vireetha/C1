@@ -1,39 +1,17 @@
-.normal{
-    color: blueviolet;
-    background-color: bisque;
-    width: 150px;
-    height: 150px;
-    border: solid  blue;
-}
-.fixed{
-    background-color: aqua;
-    width: 150px;
-    position: fixed;
-    top: 0px;
-    border:solid red;
-    left:150px;
+div{
+    background-color: cyan;
+    padding:20px;
 
 }
-.relative{
-    background-color: blue;
-    position: relative;
-    left:100px;
-
+.u11{
+    opacity:0.1
 }
-.absolute{
-    border: solid pink;
-    background-color: bisque;
-    position: absolute;
-    left: 100px;
-    
+.u12{
+    opacity:0.4
 }
-.sticky{
-    background-color: cadetblue;
-    position: sticky;
-    width: 150px;
-    height:100px;
-    border: solid darkred;
-    top: 20px;
-    left:20px;
-
+.u13{
+    opacity:0.6
+}
+.u14{
+    opacity:1
 }
