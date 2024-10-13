@@ -1,17 +1,22 @@
-div{
-    background-color: cyan;
-    padding:20px;
-
+h1{
+    background-color: aquamarine;
+     padding:2px;
+     text-align: center;
+     text-decoration: underline;
 }
 .u11{
-    opacity:0.1
+    opacity: 0.1;
+    background-color: red;
 }
 .u12{
-    opacity:0.4
+    opacity:0.3;
+    background-color: red;
 }
 .u13{
-    opacity:0.6
+    opacity:0.6;
+    background-color: red;
 }
 .u14{
-    opacity:1
+    opacity: 1;
+    background-color: red;
 }
