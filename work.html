@@ -6,42 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="123">Calculator Application </h1>
-    <p id="456"> This will show the output of the specific Calculation that is being performed. </p>
-     <p id="urooj"> hi</p>
-     <p id="sports"> Sports </p>
-    <script>
-    document.getElementById("123").innerHTML=" This is the output"
-    document.getElementById("456").innerHTML=" This is the output"
-    document.getElementById("urooj").innerHTML="This is the output"
-    document.getElementById("sports").innerHTML="This is the output"
-   var X= 550;
-   var Y=1200;
-   var total=X+Y;
-   document.getElementById("123").innerHTML="The sum is "+total
+    <h1> JS Functions</h1>
+    <button onclick="multiply(34,50)"> The output </button>
+    <button onclick="add(50,50)"> The output </button>
+<script>
+function multiply(x,y){
+    if (y===undefined)
+    y=2
+document.write(x*y)
+}
+function add(x,y){
+    if (y===undefined)
+    y=5
+document.write(x+y)
+}
 
 
-  var X= 550;
-   var Y=1200;
-   var total=X-Y;
-   document.getElementById("456").innerHTML="The difference is "+total
-  
-   var X= 550;
-   var Y=1200;
-   var total=X/Y;
-   document.getElementById("urooj").innerHTML="The reminder is "+total
-  
-   var X= 550;
-   var Y=1200;
-   var total=X*Y;
-   document.getElementById("sports").innerHTML="The multiplication  is "+total
-  </script>
-  <p style="color: blue; background-color: bisque ;"> This shows the output for the different mathematical operations that had been performed by the 2 number:-</p>
-  <ul style="color: crimson;"> 
-    <li> 
-        1st Number is 550
-    </li>
-    <li>  2nd Number is 1200</li>
-  </ul>
+
+
+</script>
+
 </body>
 </html>
