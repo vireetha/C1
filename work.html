@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
 <body>
-    <h1> Functions In JavaScript</h1>
-   <p> This is a function</p>
-<button onclick="multiply(20,30)"> Answer is:-</button>
+    <h1> Methods</h1>
+    <p> Basic Methods</p>
+    <script> 
+        var str="wOnDeRfUl"
+        document.write(str.toUpperCase());
+        document.write("<br>");
+        document.write(str.toLowerCase());
+        document.write("<br>");
+        document.write(str.Startswith('i'));
+        document.write("<br>")
 
-<script>
-function multiply(x,y) {
- if (y=== undefined){
- y=4}
+        var str1 = "I am learning Methods";
+        var patt = new RegExp(str);
+        var res  = patt.test(str);
+        document.write(res);
 
-document.write(x*y)}
-
-
-
-</script>
+    </script>
 </body>
 </html>
